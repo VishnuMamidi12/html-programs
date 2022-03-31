@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RegistrationForm</title>
+        <link rel="stylesheet" href="formValidation/Form.css" type="text/css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>Register Here</h2>
+            </div>
+            <form action="form" id="form"form-control>
+                <div class="form-control">
+                    <label>FIRSTNAME</label>
+                    <input type="text" id="fname" placeholder="Enter your FirstName" required>
+                </div>
+                <div class="form-control">
+                    <label>LastName</label>
+                    <input type="text" id="lname" placeholder="Enter your LastName">
+                </div>
+                <div class="form-control">
+                    <label>EMAIL</label>
+                    <input type="email" id="email" placeholder="Enter Valid Email Address" required>
+                </div>
+                <div class="form-control">
+                    <label>MOBILENO</label>
+                    <input type="number" id="phoneno" placeholder="Enter Valid 10 Digit MobileNo" required>
+                </div>
+                <div class="form-control">
+                    <label>PASSWORD</label>
+                    <input type="password" id="pwd" placeholder="Create New Password" required>
+                </div>
+                <div class="form-control">
+                    <label>CONFIRMPASSWORD</label>
+                    <input type="password" id="cpwd" placeholder="Confirm Your Password" required>
+                </div>
+                <div class="form-control">
+                <input type="button" class="button" value="submit" onclick="validateData()">
+                </div>
+            </form>
+        </div>
+    </body>
+    <script src="formValidation/Form.js" type="text/jscript"></script>
+</html>

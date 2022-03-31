@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <title style="box-sizing: border-box;">
+        SignUp
+    </title>
+    <head >
+        <style type="text/css">
+             input [type="submit"]
+             {
+                 cursor: pointer;
+             }
+             body
+             {
+                 background-image: url(reg.jpeg);
+                font-size: 25px;
+             }
+            table
+            {
+                background-color: rgb(3,3,3);
+            }
+        </style>
+        <center>
+                <h1 style="color: brown;"> RegisterHere </h1>
+        </center>
+    </head>
+    <body style="background-color: white;">
+        <table style="color: rgb(240,241,238);  "align="center"  border="5" cellspacing="10px">
+            <tr>
+                <td> FirstName</td>
+                <td>
+                    <input type="text" name="firstName" placeholder="Enter Your First Name">
+                </td>
+            </tr>
+            <tr>
+                <td>  LastName</td>
+                <td>
+                    <input type="text" name="lastName" placeholder="Enter Your Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <select>
+                        <option value="Male">Male</option>
+                        <option value="Female">FeMale</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>DateOfBirth</td>
+                <td>
+                    <input type="date" name="birthday">
+                </td>
+            </tr>
+                <tr >
+                <td >MobileNo</td>
+                <td>
+                    <input type="number" name="mobileno" maxlength="10" placeholder="Enter Your ten digit mobileNo"> 
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" name="email" placeholder="Enter Your Valid mail"> 
+                </td>
+            </tr>
+            <tr>
+                <td>Careate Password</td>
+                <td>
+                    <input type="password" maxlength="8" name="password" placeholder="Enter Password">
+                </td>
+            </tr>
+            <tr>
+                <td>Conform Password</td>
+                <td>
+                    <input type="password" maxlength="8" name="password" placeholder="Conform Password">
+                </td>
+            </tr>
+            <tr>
+                <td>securityQuestion</td>
+                <td>
+                    <select>
+                        <option value="sport">Favourite Sport</option>
+                        <option value="name">Favourite Hero</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>SecurityAnswer</td>
+                <td>
+                    <input type="text" value="question" placeholder="Enter your Answer">
+                </td>
+            </tr>
+        </table>
+        <center>
+            <input type="checkbox" <h3>I Agree To Terms</h3><br>
+        <input style="text-align: center; font-size: 20px;" type="submit" value="Signup"><br>
+    <td>Already Registered <a href="Login.html">click here</a></td></center>
+    </body>
+</html>
